@@ -5,7 +5,7 @@ import Button from '../components/Button'
 const Kotak = () => {
   return (
     <div className="min-h-screen flex justify-center mt-12">
-      <div className="flex shadow-md items-center">
+      <div className="flex items-center">
         
         {/* KIRI */}
         <div className="bg-[#6C6A6A] text-white rounded-3xl p-10 w-[470px] h-[586px] flex flex-col">
