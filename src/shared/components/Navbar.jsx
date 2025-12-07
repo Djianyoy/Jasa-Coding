@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className=' flex mycontainer   items-center justify-between'>
+    <nav className='bg-[#DDD8D8] flex mycontainer   items-center justify-between'>
         <div>
             <Image src={'/logo.webp'} width={100} height={100} />
         </div>
@@ -23,8 +23,8 @@ const Navbar = () => {
             </li>
         </div>
 
-        <button className='px-6 py-0.5 flex items-center justify-center border-2 rounded-full font-semibold '>
-            Daftar
+        <button>
+            <Link className='px-6 py-0.5 flex items-center justify-center border-2 rounded-full font-semibold hover:bg-gray-700 ' href="/keunggulan"> Daftar</Link>
         </button>
     </nav>
   )
