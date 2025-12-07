@@ -22,9 +22,9 @@ const Navbar = () => {
                 </ul>
             </li>
         </div>
-
         <button className='px-6 py-0.5 flex items-center justify-center border-2 rounded-full font-semibold '>
-            Daftar
+            
+            <a href="/daftar">Daftar</a>
         </button>
     </nav>
   )
