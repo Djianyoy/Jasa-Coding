@@ -1,13 +1,15 @@
-import Background from '@/features/home/hero/container/Background'
 import Footer from '@/shared/components/Footer'
-import Navbar from '@/shared/components/Navbar'
+import Navbar from   '@/shared/components/Navbar'
+import Html  from '@/shared/components/Html'
 import React from 'react'
+import TextBox from '@/features/home/hero/container/TextBox'
 
 const page = () => {
   return (
     <div className='bg-white'>
     <Navbar/>
-    <Background />
+    <TextBox/>
+    <Html/>
     <Footer/>
     </div>
     

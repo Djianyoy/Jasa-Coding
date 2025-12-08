@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='bg-gray-400 mt-100'>
         <div className='px-24 pt-18 pb-4'>
-            <Image src={'/logo.webp'} width={150} height={150} className='p-2' />
+            <Image src={'/logo.webp'} alt='logoFooter' width={150} height={150} className='p-2' />
             <p>©Jasa Coding 2025. All rights reserved. Universitas Brawijaya</p>
         </div>
 
