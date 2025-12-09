@@ -1,7 +1,8 @@
 // components/Background.jsx
 import React from 'react'
 import Card from '../components/Card' 
-import { cardData } from '@/data/cardData' // Import data kartu
+import { cardData } from '../hooks/cardData'
+
 
 const Keunggulan = () => {
   return (
