@@ -1,5 +1,4 @@
 import Kotak from '@/feature/daftar/container/Kotak'
-import Html from '@/shared/components/Html'
 import Navbar from '@/shared/components/Navbar'
 import React from 'react'
 
