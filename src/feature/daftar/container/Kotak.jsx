@@ -11,7 +11,7 @@ const Kotak = () => {
           <div className="bg-[#3D4450] text-white rounded-3xl p-10 w-[470px] h-[586px] flex flex-col">
             <h2 className="text-5xl font-bold mb-2">Gabung dulu yuk!</h2>
             <p className="mb-10 text-lg">Mulai akses layanan coding yang kamu butuhkan.</p>
-            <img src="/bgImage3.webp" alt="logo" className=" mx-auto mt-28" />
+            <img src="/asset1.png" alt="logo" className=" mx-auto mt-21" />
           </div>
 
           {/* KANAN */}
