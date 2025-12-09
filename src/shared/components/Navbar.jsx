@@ -12,7 +12,7 @@ const Navbar = () => {
         <div>
             <li className='flex items-center justify-between gap-28 text-lg text-[#FEF8F5] hover:text-white '>
                 <ul>
-                    <Link href={"/jawa"} className='hover:font-semibold'>Beranda</Link>
+                    <Link href={"/home"} className='hover:font-semibold'>Beranda</Link>
                 </ul>
                 <ul>
                     <Link href={"/jawa"} className='hover:font-semibold'>Ajukan</Link>
