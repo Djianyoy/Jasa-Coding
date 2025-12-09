@@ -1,4 +1,4 @@
-import Kotak from '@/feature/daftar/container/Kotak'
+import Kotaklogin from '@/feature/login/container/Kotaklogin'
 import Navbar from '@/shared/components/Navbar'
 import React from 'react'
 
@@ -10,7 +10,7 @@ const page = () => {
         </div>
         <div className='relative z-10'>
           <Navbar />    
-          <Kotak/>
+          <Kotaklogin/>
         </div>
       </div>
     </div>
